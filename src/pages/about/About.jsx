@@ -2,6 +2,6 @@ import { Header } from "../../shared/components/header/Header"
 
 export const About = () => {
   return (
-    <Header />
+    <h1>About</h1>
   )
 }
