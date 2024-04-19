@@ -1,11 +1,20 @@
-import { Link } from 'react-router-dom'
-import './Header.scss'
+import "./Header.scss";
+import { useState } from "react";
+import { HeaderMenu } from "./components/HeaderMenu/HeaderMenu";
 
 export const Header = () => {
+  const [navIsActive, setNavIsActive] = useState(false)
   return (
     <>
-      <Link to={"/"}>Home</Link>
-      <Link to={"/about"}>About</Link>
+      <div className="header">
+        <div className="menu" onClick={()=> setNavIsActive(true)}>
+          <span className="icon-menu"></span>
+        </div>
+        <div className="user">
+          <span className="icon-coffee"></span>
+        </div>
+        {<HeaderMenu navIsActive={navIsActive} navClose={()=> setNavIsActive(false)} />}
+      </div>
     </>
-  )
-}
+  );
+};

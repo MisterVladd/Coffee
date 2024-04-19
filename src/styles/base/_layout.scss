@@ -9,6 +9,15 @@ body {
   font-family: var(--font-family);
   background: #0C0F14;
   color: #fff;
-  max-width: 430rem;
-  margin-inline: auto;
+  overflow: hidden;
 }
+#root {
+  height: 100%;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.main {
+  overflow-y: auto;
+}
+

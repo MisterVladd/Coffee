@@ -1,7 +1,12 @@
-import { Header } from "../../shared/components/header/Header"
+import { HomeFind } from "./components/HomeFind/HomeFind"
+import { HomeTabs } from "./components/HomeTabs/HomeTabs"
+import './Home.scss';
 
 export const Home = () => {
   return (
-    <h1>Home</h1>
+    <div className="home">
+    <HomeFind />
+    <HomeTabs />
+    </div>
   )
 }

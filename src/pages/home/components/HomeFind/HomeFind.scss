@@ -1,0 +1,51 @@
+.home-find{
+    padding: 0rem 30rem;
+    .title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 129%;
+        max-width: 195rem;
+        margin-bottom: 28rem;
+    }
+    .icon-search::before{
+        color: #52555A;
+    }
+    
+    .form {
+        max-width: 100%;
+        border-radius: 15px;
+        background: var(--background-form);
+        padding: 12rem 18rem;
+        display: flex;
+        align-items: center;
+        gap: 19rem;
+        margin-bottom: 28rem;
+    
+        &__btn {
+            width: 20rem;
+            height: 20rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    
+        &__input {
+            width: 100%;
+            background: transparent;
+            border: 0;
+            outline: none;
+            font-family: var(--font-family);
+            font-weight: 500;
+            font-size: 10px;
+            line-height: 200%;
+            color: var(--standart-color);
+    
+    
+            &::placeholder {
+                color: var(--color-form);
+            }
+        }
+    }
+    
+    .icon-search {}
+}

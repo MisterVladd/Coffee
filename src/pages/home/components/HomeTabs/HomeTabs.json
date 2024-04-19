@@ -1,0 +1,58 @@
+{
+    "coffeeData": [
+      {
+        "id": 1,
+        "title": "Cappuccino",
+        "desc": "With Steamed Milk",
+        "cost": 4.99,
+        "star": 4.5,
+        "image": "src/assets/cappuccino/cappuccino-1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Espresso",
+        "desc": "With Foam",
+        "cost": 3.49,
+        "star": 4.2,
+        "image": "src/assets/cappuccino/cappuccino-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Cappucino",
+        "desc": "With Steamed Milk",
+        "cost": 4.20,
+        "star": 4.5,
+        "image": "src/assets/cappuccino/cappuccino-3.jpg"
+      }
+    ],
+    "RobustaData": [
+      {
+        "id": 1,
+        "title": "Robusta Blend",
+        "desc": "Medium Roasted",
+        "cost": 5.99,
+        "image": "src/assets/robusta/robusta-1.jpg"
+      },
+      {
+        "id": 2,
+        "title": "Dark Roast",
+        "desc": "Bold and rich dark roast coffee beans.",
+        "cost": 6.49,
+        "image": "src/assets/robusta/robusta-2.jpg"
+      },
+      {
+        "id": 3,
+        "title": "Cappucino",
+        "desc": "Medium Roasted",
+        "cost": 6.49,
+        "image": "src/assets/robusta/robusta-3.jpg"
+      },
+      {
+        "id": 4,
+        "title": "Cappucino",
+        "desc": "Medium Roasted",
+        "cost": 6.49,
+        "image": "src/assets/robusta/robusta-4.jpg"
+      }
+    ]
+  }

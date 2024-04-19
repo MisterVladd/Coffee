@@ -1,0 +1,20 @@
+.sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 22px 35px;
+
+    .sidebar-link {
+        font-size: 24px;
+
+        .sidebar-link__icon::before {
+            transition: var(--transition);
+        }
+
+        &.active {
+            .sidebar-link__icon::before {
+                color: #D17842;
+            }
+        }
+    }
+}
